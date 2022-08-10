@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="./index.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Instagram Clone</title>
+    </head>
+
+    <body>
+
+        <div class="main">
+            <article class="container">
+                <div class="image">
+                    <img class="main-image"
+                        src="https://www.instagram.com/static/images/homepage/phones/home-phones-2x.png/cbc7174b4f05.png"
+                        alt="telefon">
+                    <img class="foto" src="	https://www.instagram.com/static/images/homepage/screenshots/screenshot1-2x.png/cfd999368de3.png" alt="foto">
+                </div>
+                <div class="index">
+                    <div class="input">
+                        <div class="logo">
+                            <img src="https://www.instagram.com/static/images/web/logged_out_wordmark-2x.png/d2529dbef8ed.png"
+                                alt="instagram">
+                        </div>
+                        
+                        <input type="email" id="email" class="email"  placeholder="Eposta" onfocusout="ValidateEmail()" onfocusin="nonRed()" required>
+                        <input id="password" class="password" type="password" placeholder="Şifre" required>
+                        <button class="btn1" type="submit" onclick="enter()">Girş Yap</button>
+
+                        <div class="line"></div>
+
+                        <div class="facebook">
+                            <i class="fa-brands fa-square-facebook"></i><span class="facebook">Facebook ile Giriş
+                                Yap</span>
+                        </div>
+
+                        <div class="forget-password">
+                            <a href="#">Şifreni mi unuttun?</a>
+                        </div>
+                    </div>
+
+                    <div class="singup">
+                        <div class="inner">
+                            <span>Hesabın yok mu?</span><span class="kayitol">Kaydol</span>
+                        </div>
+
+                    </div>
+
+                    <div class="download">
+                        <div class="dwn">Uygulamyı İndirin</div>
+                        <div class="store">
+                            <div class="gp">
+                                <img src="./9d46177cf153.png" alt="googleplay">
+
+                            </div>
+                            <div class="as">
+                                <img src="./30b29fd697b2.png" alt="appstore">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </article>
+        </div>
+        <footer>
+            <ul>
+                <li>Meta</li>
+                <li>Hakkında</li>
+                <li>Blog</li>
+                <li>İş Fırsatları</li>
+                <li>Yardım</li>
+                <li>API</li>
+                <li>Gizlilik</li>
+                <li>Koşullar</li>
+                <li>Başlıca Hesaplar</li>
+                <li>Konu Etiketleri</li>
+                <li>Konumlar</li>
+                <li>Instagram Lite</li>
+                <li>Kişi Yükleme ve Hesabı Olmayan Kişiler</li>
+            </ul>
+            <ul>
+                <li>Dans</li>
+                <li>Yiiyecek İçcecek</li>
+                <li>Ev ve Bahçe</li>
+                <li>Müzik</li>
+                <li>Görsel Sanatlar</li>
+            </ul>
+
+            <ul>
+                <li>
+                    <select name="language" id="language">
+                        <option value="Tr">Türkçe</option>
+                        <option value="Eng">English</option>
+                        <option value="De">Detuch</option>
+                    </select>
+                </li>
+                <li> &copy; Instagram from Meta </li>
+            </ul>
+
+        </footer>
+
+        <script src="./index.js"></script>
+    </body>
+
+</html>

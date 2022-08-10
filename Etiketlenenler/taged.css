@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    
+   font-family: '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', Helvetica, Arial, sans-serif;
+}
+header .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .logo img{
+    width: 120px;
+    height: 35px;
+}
+
+header .search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .search input{
+    height: 25px;
+    width: 65%;
+    background-color: lightgrey;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+header .icons{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    
+}
+
+.a{
+    font-size: 20px;
+}
+
+/* header .icons .profile img{
+    width: 20px;
+    height: 20px;
+    border: 1px solid lightgrey;
+    border-radius: 100%;
+
+} */
+
+header .header{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    justify-content: space-around;
+    margin-right: 10px;
+    height: 60px;
+    background-color: rgb(245, 248, 248);
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.dropdown img{
+    width: 25px;
+    height: 25px;
+    border: 1px solid lightgrey;
+    border-radius: 100%;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.profile-section{
+    margin-bottom: 10px;
+}
+
+.profil-section-name{
+margin-left: 10px;
+}
+
+.section-border{
+    border-top: 1px  solid lightgrey;
+}
+
+.save-section-name{
+   margin-left: 15px ;
+   
+}
+
+.exit{
+    margin-top: 10px;
+}
+.profile-area{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.profile-image{
+    margin-left: 50px;
+    margin-top: 20px;
+   display: inline-block;
+}
+
+.profile-image img{
+    width:  200px;
+    height: 200px;
+    border-radius: 100%;
+}
+
+.profile-infos{
+    margin-top: 20px !important;
+    width: 500px;
+    display: grid;
+    grid-template-columns: 25% 25% 5%;
+    grid-row: auto;
+    justify-items: center;
+    align-items: center;
+    align-content: space-between;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+}
+
+button{
+    width: 120px;
+    height: 40px;
+    margin-right: 10px;
+    background-color: white;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+}
+
+.follower-infos{
+    display: flex;
+    justify-content: center;
+    gap: 58px;
+    margin-top: 20px;
+}
+
+.name{
+    font-weight: bold;
+    margin-left: 85px;
+    margin-top: 75px;
+    border-bottom: 10px;
+}
+
+
+.area{
+    display: inline-block;
+}
+
+.border-top{
+    width: 80%;
+    border-top: 1px solid lightgrey;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.yonlendirme{
+    display: flex;
+    gap: 60px;
+    margin-left: 100px;
+    align-content: center;
+    justify-content: center;
+}
+.etiket{
+    border-top: 1px solid gray;
+    font-weight: 800;
+}
+.poto-area{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 70px;
+    margin-bottom: 20px;
+}
+.poto-area img{
+    width: 400px;
+    height: 400px;
+}
+
+.info .image img{
+    width: 100px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ul{
+    text-decoration: none;
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+ul li{
+    display: inline;
+    color: lightslategray;
+}
+#language{
+    border: none;
+    color: lightslategray;
+}
+
+.email.red{
+    border: 1px solid red;
+}

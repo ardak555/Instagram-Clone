@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+   background-color:  rgba(var(--b3f,250,250,250),1);
+}
+
+.main{
+    width: 100%;
+    height: 745px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+article{
+    width: 935px;
+    height: 625.15px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    /* justify-content: center;
+    align-items: center; */
+
+}
+
+article .image{
+ display: flex;
+
+}
+
+article .image .main-image{
+    width: 99%;
+    height: 100%;
+    margin-top: 15px;
+    margin-left: -20px;
+
+}
+
+article .image .foto{
+    margin-left: -313px;
+    width: 259px;
+    height: 557px;
+    margin-top: 40px;
+}
+
+
+
+article .input{
+    width: 99%;
+    height: 60%;
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-top: 15px;
+    border: 1px solid lightgray;
+}
+
+article .input .logo{
+    margin-top: 15px;
+}
+
+article .input input{
+    width: 258px;
+    height:36px ;
+    border: 0.5px solid lightgray;
+    border-radius: 5px;
+    
+}
+article .input .btn1{
+    width: 258px;
+    height:30px ;
+    border: 1px solid lightblue;
+    background-color: lightblue;
+    text-align: center;
+    /* padding-top: 3px; */
+    border-radius: 5px;
+}
+
+.yazi{
+    vertical-align: middle;
+    text-align: center;
+}
+
+.line{
+    width: 90%;
+    border-top: 1px solid lightslategray;
+}
+
+.facebook{
+    font-weight: 300;
+    color: rgb(40, 40, 170);
+    margin-left: 5px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+a{
+    text-decoration: none;
+    color:rgba(var(--fe0,0,55,107),1);
+}
+
+.singup{
+    width: 464px;
+    height: 63px;
+    border: 1px solid lightgray;
+    margin-top: 10px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.kayitol{
+margin-left: 5px;
+color: #0095f6;
+}
+
+.download{
+    width: 464px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.store{
+    display: block;
+    float: left;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+.as{
+    display: inline-block;
+}
+
+.gp{
+    display: inline-block;
+}
+
+.as img{
+    width: 136px;
+}
+
+.gp img{
+    width: 136px;
+}
+
+ul{
+    text-decoration: none;
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+ul li{
+    display: inline;
+    color: lightslategray;
+}
+#language{
+    border: none;
+    color: lightslategray;
+}
+
+.email.red{
+    border: 1px solid red;
+}

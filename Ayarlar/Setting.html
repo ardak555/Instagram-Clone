@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="./setting.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Istagram Clone</title>
+    </head>
+
+    <body>
+        <header>
+
+            <div class="header">
+                <div class="logo">
+                    <img onclick="anasayfa()"
+                        src="	https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png"
+                        alt="instagram">
+                </div>
+
+                <div class="search">
+                    <input type="text" placeholder="Ara">
+                </div>
+                <div class="icons">
+                    <i onclick="anasayfa()" class="fa-solid fa-house a"></i>
+                    <i onclick="dm()" class="fa-regular fa-paper-plane a"></i>
+                    <i class="fa-regular fa-square-plus a"></i>
+                    <i onclick="kesfet()" class="fa-regular fa-compass a"></i>
+                    <i class="fa-regular fa-heart a"></i>
+                    <span class=" dropdown">
+                        <img src="../Kaydedilenler/pp.jpg" alt="pp">
+                        <div class="dropdown-content">
+                            <div class="profile-section" onclick="profilepage()">
+                                <i class="fa-regular fa-circle-user"></i>
+                                <span class="profil-section-name">Profil</span>
+                            </div>
+
+                            <div class="profile-section" onclick="reccordpage()">
+                                <i class="fa-regular fa-bookmark"></i>
+                                <span class="save-section-name">Kaydet</span>
+                            </div>
+
+                            <div class="profile-section" onclick="settinpage()">
+                                <i class="fa-solid fa-gear"></i>
+                                <span class="profil-section-name">Ayarlar</span>
+                            </div>
+
+                            <div class="profile-section" onclick="cangepage()">
+                                <i class="fa-solid fa-arrows-rotate"></i>
+                                <span class="profil-section-name">Hesap Değiştir</span>
+                            </div>
+                            <div class="section-border"></div>
+                            <div class="exit" onclick="exitpage()">
+                                <span class="exit-section">Çıkış Yap</span>
+                            </div>
+                        </div>
+                    </span>
+
+                </div>
+            </div>
+        </header>
+
+        <div class="container">
+            <div class="side">
+
+                <ul>
+                    <li>Profil düzenle</li>
+                    <li>Şifre deeğiştir</li>
+                    <li>Uygulamalar ve İnternet siteleri</li>
+                    <li>Eposta bildirimleri</li>
+                    <li>Anında ileti</li>
+                    <li>Kişileri Yönet</li>
+                    <li>Gizlilik ve güvenlik</li>
+                    <li>Giriş hareketleri</li>
+                    <li>İnstagram'dan epostalar </li>
+                    <li>Yardım</li>
+                    <li class="last">Profesyonel heasab geçiş yap</li>
+                </ul>
+                <div class="border"></div>
+
+                <div class="hader">
+                    <i class="fa-brands fa-meta"></i>
+                    Meta
+                </div>
+
+                <p class="info-side">
+                    Hikaye ve gönderi paylaşımı ve giriş yapma dahil Instagram, Facebook uygulaması ve Messenger
+                    arasındaki bağlantılı deneyimler için ayarları kontrol et.
+                </p>
+            </div>
+
+            <div class="main-area">
+
+                <div class="profile-info-area">
+                    <img src="../Kaydedilenler/pp.jpg" alt="">
+                    <div class="profile-name-settig">
+                        NickName
+                        <div class="intro">
+                            Profil Fotoğrafını Değiştir
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="name-input-area">
+                    <label for="name">Adın</label>
+                    <input type="text" id="name-input">
+
+                    
+                    <p class="info-name">
+                        Adın ve soyadın, takma adın veya işletmenin adı gibi tanındığın bir adı kullanarak insanların hesabını keşfetmesine
+                        yardımcı ol.
+
+                    </p>
+
+                    <p class="info-name">
+                        Adını 14 gün içinde sadece iki kez değiştirebilirsin.
+                    </p>
+                </div>
+
+                <div class="name-input-area">
+                    <label class="user-label" for="name">Kullanıcı Adı</label>
+                    <input type="text" id="user-input">
+
+                    
+                    <p class="info-name">
+                        Çoğu durumda, kullanıcı adını 14 gün içinde yeniden değiştirip koyuncu_arda yapabileceksin. <a href="#">Daha fazla bilgi al</a> 
+
+                    </p>
+                </div>
+
+                <div class="internet">
+                    <label class="int-label" for="name">İnternet Sitesi</label>
+                    <input type="text" >
+                </div>
+
+                <div class="biyograpy">
+                     <label class="bio-lable" for="name">Biyografi</label>
+                     <textarea  cols="51"></textarea>
+                </div>
+
+                <div class="aciklama">
+                    <h4>Kişisel bilgiler</h4>
+                    <p>Hesap bir işletme, evcil hayvan veya başka bir şey için kullanılıyor olsa da kişiler bilgilerini gir. Bu kısımlar
+                        herkese açık profilinde görünmeyecek.</p>
+                </div>
+
+                <div class="eposta">
+                    <label class="email" for="email">Eposta</label>
+                    <input type="email">
+                </div>
+
+                <div class="telefon">
+                    <label class="tel" for="telefon">Telefon numarsı</label>
+                    <input type="tel">
+                </div>
+
+                <div class="cinsiyet">
+                    <label class="cins" for="telefon">Cinsiyet</label>
+                    <input type="text" id="cins-input">
+                </div>
+
+                <div class="recomend">
+                    <label class="cins" for="telefon">
+                        <div class="label-reco">
+                            Benzer hesap önerileri
+                        </div>
+                    </label>
+                    <div class="set">
+                        <input class="check" type="checkbox">
+                         <span style="margin-left: 5px;">İnsanlara takip etmek isteyebilecekleri benzer hesaplar tavsiye edilirken hesabını tavsiyeler arasına ekle.</span> 
+
+                    </div>
+
+                    
+                </div>
+
+                <div class="buton">
+                    <button class="submit" type="submit" disabled>Gönder</button>
+                </div>
+                        
+            </div>
+        </div>
+
+        <footer>
+            <ul class="foter">
+                <li>Meta</li>
+                <li>Hakkında</li>
+                <li>Blog</li>
+                <li>İş Fırsatları</li>
+                <li>Yardım</li>
+                <li>API</li>
+                <li>Gizlilik</li>
+                <li>Koşullar</li>
+                <li>Başlıca Hesaplar</li>
+                <li>Konu Etiketleri</li>
+                <li>Konumlar</li>
+                <li>Instagram Lite</li>
+                <li>Kişi Yükleme ve Hesabı Olmayan Kişiler</li>
+            </ul>
+            <ul class="foter" >
+                <li>Dans</li>
+                <li>Yiiyecek İçcecek</li>
+                <li>Ev ve Bahçe</li>
+                <li>Müzik</li>
+                <li>Görsel Sanatlar</li>
+            </ul>
+
+            <ul class="foter">
+                <li>
+                    <select name="language" id="language">
+                        <option value="Tr">Türkçe</option>
+                        <option value="Eng">English</option>
+                        <option value="De">Detuch</option>
+                    </select>
+                </li>
+                <li> &copy; Instagram from Meta </li>
+            </ul>
+
+        </footer>
+
+        <script src="./setting.js"></script>
+
+    </body>
+
+</html>

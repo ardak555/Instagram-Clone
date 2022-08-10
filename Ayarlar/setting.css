@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    
+   font-family: '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', Helvetica, Arial, sans-serif;
+}
+header .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .logo img{
+    width: 120px;
+    height: 35px;
+}
+
+header .search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .search input{
+    height: 25px;
+    width: 65%;
+    background-color: lightgrey;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+header .icons{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    
+}
+
+.a{
+    font-size: 20px;
+}
+
+/* header .icons .profile img{
+    width: 20px;
+    height: 20px;
+    border: 1px solid lightgrey;
+    border-radius: 100%;
+
+} */
+
+header .header{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    justify-content: space-around;
+    margin-right: 10px;
+    height: 60px;
+    background-color: rgb(245, 248, 248);
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.dropdown img{
+    width: 25px;
+    height: 25px;
+    border: 1px solid lightgrey;
+    border-radius: 100%;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.container{
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-bottom: 20px;
+
+}
+
+.container .side{
+    width: 300px;
+    height: 800px;
+    border: 1px solid lightgrey;
+    display: block;
+    float: left;
+   
+}
+
+.container .side ul{
+    list-style-type: none;
+    line-height: 50px;
+
+}
+.container .side ul li{
+    padding-left: 30px;
+}
+
+.container .side ul li:hover{
+    border-left: 1px solid gray;
+    background-color: rgba(211, 211, 211, 0.13);
+}
+
+.container .main-area{
+    width: 700px;
+    height: 800px;
+    border: 1px solid lightgrey;
+    border-left: none;
+    margin-left: 302px;
+}
+.last{
+    color: #0095f6;
+    font-weight: 600;
+}
+
+.profile-info-area{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+label{
+    margin-left:160px;
+    margin-right: 20px;
+    font-weight: bold;
+}
+.user-label{
+    margin-left:110px;
+    margin-right: 20px;
+}
+input{
+    width: 340px;
+    height: 30px;
+}
+.int-label{
+    margin-left:100px;
+    margin-right: 20px;
+}
+.internet{
+    margin-top: 20px;
+}
+
+.biyograpy{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+
+}
+.bio-lable{
+    margin-left:140px;
+    margin-right: 20px; 
+
+}
+
+.aciklama{
+    color: grey;
+    width: 370px;
+    margin-left: 225px;
+    font-size: small;
+    margin-top: 10px;
+}
+.eposta{
+    margin-top: 20px;
+}
+
+.email{
+    margin-left:150px;
+    margin-right: 20px; 
+}
+
+.telefon{
+    margin-top: 20px;
+}
+.tel{
+    margin-left:83px;
+    margin-right: 20px;
+}
+
+.cinsiyet{
+    margin-top: 20px;
+}
+
+.cins{
+    margin-left:145px;
+    margin-right: 20px;
+}
+
+.label-reco{
+    width: 100px;
+    margin-left: -45px;
+}
+
+.recomend{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.set{
+    display: flex;
+    align-items: center;
+    margin-right:54px
+}
+.check{
+    width: 30px;
+    height: 30px;
+}
+
+.submit{
+    background-color: #0094f680;
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.info-name{
+    margin-top: 20px;
+    width: 370px;
+    font-size: small;
+    color: grey;
+    margin-left: 220px;
+}
+.name-input-area{
+    margin-top: 20px;
+}
+
+.profile-info-area img{
+    width: 50px;
+    height: 50px;
+    border: 1px solid lightgrey;
+    border-radius: 100%;
+}
+
+.intro{
+    color: #0095f6;
+    font-weight: bold;
+}
+
+.border{
+    margin-top: 30px;
+    border-top: 1px solid lightgrey;
+}
+
+.hader .fa-meta{
+    margin-top: 10px;
+    margin-left: 30px;
+    color: #0095f6;
+}
+.heder{
+margin-top: 20px;
+margin-left: 30px;
+}
+
+.info-side{
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.foter{
+    text-decoration: none;
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.foter li{
+    display: inline;
+    color: lightslategray;
+}
+#language{
+    border: none;
+    color: lightslategray;
+}
+
+

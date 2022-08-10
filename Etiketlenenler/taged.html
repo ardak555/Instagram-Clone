@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="./taged.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Instagram Clone</title>
+    </head>
+
+    <body>
+        <header>
+
+            <div class="header">
+                <div class="logo">
+                    <img onclick="anasayfa()" src="	https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png"
+                        alt="instagram">
+                </div>
+
+                <div class="search">
+                    <input type="text" placeholder="Ara">
+                </div>
+                <div class="icons">
+                    <i onclick="anasayfa()" class="fa-solid fa-house a"></i>
+                    <i onclick="dm()" class="fa-regular fa-paper-plane a"></i>
+                    <i class="fa-regular fa-square-plus a"></i>
+                    <i onclick="kesfet()" class="fa-regular fa-compass a"></i>
+                    <i class="fa-regular fa-heart a"></i>
+                    <span class=" dropdown">
+                        <img src="../Ana Sayfa/pp.jpg" alt="pp">
+                        <div class="dropdown-content">
+                            <div class="profile-section" onclick="profilepage()">
+                                <i class="fa-regular fa-circle-user"></i>
+                                <span class="profil-section-name">Profil</span>
+                            </div>
+
+                            <div class="profile-section" onclick="reccordpage()">
+                                <i class="fa-regular fa-bookmark"></i>
+                                <span class="save-section-name">Kaydet</span>
+                            </div>
+
+                            <div class="profile-section" onclick="settinpage()">
+                                <i class="fa-solid fa-gear"></i>
+                                <span class="profil-section-name">Ayarlar</span>
+                            </div>
+
+                            <div class="profile-section" onclick="cangepage()">
+                                <i class="fa-solid fa-arrows-rotate"></i>
+                                <span class="profil-section-name">Hesap Değiştir</span>
+                            </div>
+                            <div class="section-border"></div>
+                            <div class="exit" onclick="exitpage()">
+                                <span class="exit-section">Çıkış Yap</span>
+                            </div>
+                        </div>
+                    </span>
+
+                </div>
+            </div>
+        </header>
+
+
+        <div class="profile-area">
+
+            <div class="profile-image">
+                <img src="../Ana Sayfa\pp.jpg" alt="">
+            </div>
+
+            <div class="area">
+                <div class="profile-infos">
+                    <h4>NickName</h4>
+                    <button>Profili Düzenle</button>
+                    <i class="fa-solid fa-gear"></i>
+                </div>
+                <div class="follower-infos">
+                    <div class="posts">
+                        0 Gönderi
+                    </div>
+                    <div class="fallover">
+                        1M Takipçi
+                    </div>
+
+                    <div class="falloving">
+                        120 Takip
+                    </div>
+                </div>
+                <div class="name">
+                    Arda Koyuncu
+                </div>
+                <div class="gizli"></div>
+            </div>
+        </div>
+
+        <div class="border-top"></div>
+
+        <div class="yonlendirme">
+            <div onclick="postlar()"  class="gonderiler">
+                <i onclick="postlar()" class="fa-solid fa-table-cells"></i>
+                <span onclick="postlar()" class="gonderiler-name">Gonderiler</span>
+            </div>
+            <div onclick="reccordpage()" class="kayit">
+                <i onclick="reccordpage()" class="fa-regular fa-bookmark"></i>
+                <span onclick="reccordpage()" class="gonderiler-name">Kaydedilenler</span>
+            </div>
+            <div onclick="taged()" class="etiket">
+                <i onclick="taged()"  class="fa-solid fa-users-rectangle"></i>
+                <span onclick="taged()" class="gonderiler-name">Etiketlenenler</span>
+            </div>
+        </div>
+
+        <div class="poto-area">
+            <img src="./mediaUpsell.jpg" alt="">
+            <div class="info">
+                <h4>Hayatından kareleri çekip paylaşmaya başla.</h4>
+                <div>İlk fotoğrafını veya videonu paylaşmak için uygulamayı yükle.</div>
+                <div class="image">
+                    <img src="./WFzmKhSYqya.png" alt="as">
+                    <img src="./XUCupIzGmzB.png" alt="gp">
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <ul>
+                <li>Meta</li>
+                <li>Hakkında</li>
+                <li>Blog</li>
+                <li>İş Fırsatları</li>
+                <li>Yardım</li>
+                <li>API</li>
+                <li>Gizlilik</li>
+                <li>Koşullar</li>
+                <li>Başlıca Hesaplar</li>
+                <li>Konu Etiketleri</li>
+                <li>Konumlar</li>
+                <li>Instagram Lite</li>
+                <li>Kişi Yükleme ve Hesabı Olmayan Kişiler</li>
+            </ul>
+            <ul>
+                <li>Dans</li>
+                <li>Yiiyecek İçcecek</li>
+                <li>Ev ve Bahçe</li>
+                <li>Müzik</li>
+                <li>Görsel Sanatlar</li>
+            </ul>
+
+            <ul>
+                <li>
+                    <select name="language" id="language">
+                        <option value="Tr">Türkçe</option>
+                        <option value="Eng">English</option>
+                        <option value="De">Detuch</option>
+                    </select>
+                </li>
+                <li> &copy; Instagram from Meta </li>
+            </ul>
+
+        </footer>
+
+
+        <script src="./taged.js"></script>
+    </body>
+
+</html>

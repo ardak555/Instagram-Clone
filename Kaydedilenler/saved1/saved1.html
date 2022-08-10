@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./saved1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Clone</title>
+</head>
+<body>
+    <header>
+
+        <div class="header">
+            <div class="logo">
+                <img onclick="anasayfa()" src="	https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png"
+                    alt="instagram">
+            </div>
+
+            <div class="search">
+                <input type="text" placeholder="Ara">
+            </div>
+            <div class="icons">
+                <i onclick="anasayfa()" class="fa-solid fa-house a"></i>
+                <i onclick="dm()" class="fa-regular fa-paper-plane a"></i>
+                <i class="fa-regular fa-square-plus a"></i>
+                <i onclick="kesfet()" class="fa-regular fa-compass a"></i>
+                <i class="fa-regular fa-heart a"></i>
+                <span class=" dropdown">
+                    <img src="pp.jpg" alt="pp">
+                    <div class="dropdown-content">
+                        <div class="profile-section" onclick="profilepage()">
+                            <i class="fa-regular fa-circle-user"></i>
+                            <span class="profil-section-name">Profil</span>
+                        </div>
+
+                        <div class="profile-section" onclick="reccordpage()">
+                            <i class="fa-regular fa-bookmark"></i>
+                            <span class="save-section-name">Kaydet</span>
+                        </div>
+
+                        <div class="profile-section" onclick="settinpage()">
+                            <i class="fa-solid fa-gear"></i>
+                            <span class="profil-section-name">Ayarlar</span>
+                        </div>
+
+                        <div class="profile-section" onclick="cangepage()">
+                            <i class="fa-solid fa-arrows-rotate"></i>
+                            <span class="profil-section-name">Hesap Değiştir</span>
+                        </div>
+                        <div class="section-border"></div>
+                        <div class="exit" onclick="exitpage()">
+                            <span class="exit-section">Çıkış Yap</span>
+                        </div>
+                    </div>
+                </span>
+
+            </div>
+        </div>
+    </header>
+
+
+
+    <div  class="header-saved">
+        <div onclick="reccordpage()" class="saved-label">
+            <span class="icon"> < </span>
+            <span class="label">Kaydedilen</span>
+        </div>
+        <div class="all-post">
+            Tüm Gönderiler
+        </div>
+    </div>
+
+    <div class="post-area">
+        <img src="./post1jpg.jpg" alt="">
+        <img src="./pp2.jpg" alt="">
+        <img src="./pp4.jpg" alt="">
+        <img src="./pp3.jpg" alt="">
+        <img src="./pp.jpg" alt="">
+        <img src="./pp4.jpg" alt="">
+        <img src="./pp3.jpg" alt="">
+        <img src="./post1jpg.jpg" alt="">
+    </div>
+
+
+    <script src="./saved1.js"></script>
+</body>
+</html>
